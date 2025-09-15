@@ -43,11 +43,19 @@
         </main>
     </div>
     <script>
-        new DataTable('#myTable', {
+        const table = new DataTable('#myTable', {
             paging: false,
+            scrollY: '300px',
             responsive: true,
-            scrollY: '300px'
+            order: [[0, 'asc']]
         });
+
+        // Prevent expand when clicking checkbox or button
+        document.addEventListener('click', function (e) {
+            if (e.target.closest('input[type="checkbox"]') || e.target.closest('button')) {
+                e.stopPropagation();
+            }
+        }, true);
 
         dropDownMenu();
 
