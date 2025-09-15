@@ -1,7 +1,7 @@
 <nav class="shadow-md bg-primary max-2xl:hidden h-screen w-[335px] p-2 flex flex-col text-white fixed top-0 left-0">
     <div class="px-3 py-2 h-20 flex justify-between items-center">
         <a href="{{ url('iacuc/dashboard') }}" class="flex items-center justify-center">
-            <img src="{{ asset('') }}" alt="IACUC" class="flex items-center justify-center">
+            <img src="{{ asset('') }}" alt="IACUC MAS BAGO" class="flex items-center justify-center">
         </a>
     </div>
 
@@ -49,11 +49,11 @@
         </li>
         <!-- Pending Accounts -->
         <li>
-            <a href="{{ url('iacuc/pending-accounts') }}" class="flex items-center justify-between px-3 py-4 transition-all flex duration-200 hover:text-secondary
-                {{ Request::is('iacuc/pending-accounts') ? 'text-secondary' : '' }}">
+            <a href="{{ url('iacuc/iro-approved-accounts') }}" class="flex items-center justify-between px-3 py-4 transition-all flex duration-200 hover:text-secondary
+                {{ Request::is('iacuc/iro-approved-accounts') ? 'text-secondary' : '' }}">
                 <i class="bi bi-person-fill"></i>
                 <span class="w-full flex justify-between items-center px-3">
-                    Pending Accounts
+                    IRO Approved Accounts
                 </span>
             </a>
         </li>
@@ -103,7 +103,7 @@
                 <img src="" alt="" class="h-[45px] w-[45px] object-cover rounded-[50%] mr-[10px] border-2 border-white">
                 <div class="">
                     <div class="text-[16px] whitespace-nowrap">Iyong Pangalan</div>
-                    <div class="text-[14px] whitespace-nowrap">Admin</div>
+                    <div class="text-[14px] whitespace-nowrap">IACUC Admin</div>
                 </div>
             </div>
             <a href="{{ url('/') }}" class="duration-200 hover:text-secondary">
@@ -162,11 +162,11 @@
             </li>
             <!-- Pending Accounts -->
             <li>
-                <a href="{{ url('iacuc/pending-accounts') }}" class="flex items-center justify-between px-3 py-4 transition-all flex duration-200 hover:text-secondary
-                {{ Request::is('iacuc/pending-accounts') ? 'text-secondary' : '' }}">
+                <a href="{{ url('iacuc/iro-approved-accounts') }}" class="flex items-center justify-between px-3 py-4 transition-all flex duration-200 hover:text-secondary
+                {{ Request::is('iacuc/iro-approved-accounts') ? 'text-secondary' : '' }}">
                     <i class="bi bi-person-fill"></i>
                     <span class="w-full flex justify-between items-center px-3">
-                        Pending Accounts
+                        IRO Approved Accounts
                     </span>
                 </a>
             </li>
@@ -217,7 +217,7 @@
                         class="h-[45px] w-[45px] object-cover rounded-[50%] mr-[10px] border-2 border-white">
                     <div class="">
                         <div class="text-[16px] whitespace-nowrap">Iyong Pangalan</div>
-                        <div class="text-[14px] whitespace-nowrap">Admin</div>
+                        <div class="text-[14px] whitespace-nowrap">IACUC Admin</div>
                     </div>
                 </div>
                 <a href="{{ url('/') }}" class="duration-200 hover:text-secondary">

@@ -78,8 +78,8 @@ Route::get('/iacuc/research-records', function () {
     return view('iacuc.research-records');
 });
 
-Route::get('/iacuc/pending-accounts', function () {
-    return view('iacuc.pending-accounts');
+Route::get('/iacuc/iro-approved-accounts', function () {
+    return view('iacuc.iro-approved-accounts');
 });
 
 Route::get('/iacuc/approved-accounts', function () {

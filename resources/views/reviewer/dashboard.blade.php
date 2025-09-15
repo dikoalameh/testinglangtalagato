@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div>
-                <div class="grid max-md:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                <div class="grid max-md:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                     <div class="card bg-lightgray p-4 rounded-lg border border-gray shadow">
                         <h3 class="text-[25px] max-md:text-[22px] font-semibold">5</h3>
                         <p class="max-md:text-[13px]">APPROVAL OF ACCOUNTS</p>

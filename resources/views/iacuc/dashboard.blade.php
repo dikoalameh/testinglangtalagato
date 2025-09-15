@@ -24,7 +24,7 @@
             <!-- User Account Cards -->
             <div>
                 <h2 class="text-[20px] max-sm:text-[17px] font-semibold mb-4">USERS ACCOUNT</h2>
-                <div class="grid max-md:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="grid max-md:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div class="card bg-lightgray p-4 rounded-lg border border-gray shadow">
                         <h3 class="text-[25px] max-md:text-[22px] max-sm:text-[20px] font-semibold">12</h3>
                         <p class="max-md:text-[12px]">TOTAL USERS</p>
@@ -47,7 +47,7 @@
             <!-- Research Protocol -->
             <div>
                 <h2 class="text-[20px] text-[17px] font-semibold mb-4">RESEARCH PROTOCOL</h2>
-                <div class="grid max-md:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="grid max-md:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div class="card bg-lightgray p-4 rounded-lg border border-gray shadow">
                         <h3 class="text-[25px] max-md:text-[22px] max-sm:text-[20px] font-semibold">5</h3>
                         <p class="max-md:text-[12px]">EVALUATED</p>

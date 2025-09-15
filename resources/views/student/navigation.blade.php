@@ -1,6 +1,6 @@
 <nav class="shadow-md bg-primary max-2xl:hidden h-screen w-[335px] p-2 flex flex-col text-white fixed top-0 left-0">
     <div class="px-3 py-2 h-20 flex justify-between items-center">
-        <img src="" alt="STUDENT">
+        <img src="" alt="STUDENT MAS BAGO">
     </div>
 
     <ul class="mt-12 flex-1 text-[18px]">
