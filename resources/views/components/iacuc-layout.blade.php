@@ -49,11 +49,14 @@
             responsive: true,
             order: [[0, 'asc']]
         });
-        
-        // Prevent expand when clicking checkbox or button
+
         document.addEventListener('click', function (e) {
-            if (e.target.closest('input[type="checkbox"]') || e.target.closest('button')) {
-                e.stopPropagation();
+            // Only stop propagation if the checkbox or button is inside a specific table
+            const isInsideTable = e.target.closest('#myTable'); // or use a more specific class
+            const isCheckboxOrButton = e.target.closest('input[type="checkbox"], button');
+
+            if (isInsideTable && isCheckboxOrButton) {
+                e.stopPropagation(); // Prevent row expand or other unwanted behavior
             }
         }, true);
 
